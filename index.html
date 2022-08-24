@@ -12,29 +12,29 @@
 </head>
 <body>
     <!--cabecera-->
-    <header>
+    <header class="">
         <!-- barra de navegación -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <!-- link de logo principal -->
-                <a class="navbar-brand" href="#">Luis Mejías Rojas</a>
+                <a class="navbar-brand" style="margin-left: 3vw;" href="#">Luis <p class="mejiasrojas">Mejías Rojas</p></a>
                 <!-- navbar hamburguesa -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div style="margin-left: 60%;" class="collapse navbar-collapse" id="navbarNavDropdown">
                     <!-- lista de items en la navbar -->
                     <ul class="navbar-nav">
                         <!-- 1 -->
-                        <li class="nav-item">
+                        <li class="nav-item" style="margin-right: 2vw;">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <!-- 2 -->
-                        <li class="nav-item">
+                        <li class="nav-item" style="margin-right: 2vw;">
                             <a class="nav-link" href="#">About me</a>
                         </li>
                         <!-- 3 -->
-                        <li class="nav-item">
+                        <li class="nav-item" style="margin-right: 2vw;">
                             <a class="nav-link" href="#">Experience</a>
                         </li>
                         <!-- 4 (este se expande) -->
@@ -53,27 +53,30 @@
             </div>
         </nav>
 
-        <div class="descripcion">
-            <h3>Hi, my name is Luis Mejías Rojas</h3>
+        <div class="descripcion clearfix">
+            <!-- voy a dividir los elementos con "float" uno al lado del otro-->
+            <div class="float-start col-auto">
+                <h3 class="saludo">Hi, my name is Luis Mejías Rojas</h3>
             
-            <h1 class="skills">WEB DESIGNER/DEVELOPER</h1>
-            <!--descripción personal-->
-            <p class="textodescripcion">
-                Full Stack Java Developer, with 2 years experience in the Marketing field. I am detail
-                oriented, forward thinking and motivated. I value good team-work and effective communication
-                in my workplace.
-                <img class="avatar01" src="/resources/img/avatar01.png" alt="Avatar PixelArt"/>
-            </p>
-            <!-- botones de contacto -->
-            <div class="botonescontacto">
-                <button type="button" class="btn btn-primary btn-lg">CV</button>
-                <button type="button" class="btn btn-secondary btn-lg">LinkedIn</button>
+                <h1 class="skills">WEB DESIGNER/DEVELOPER</h1>
+                <!--descripción personal-->
+                <p class="textodescripcion">
+                    Full Stack Java Developer, with 2 years experience in the Marketing field. I am detail
+                    oriented, forward thinking and motivated. 
+                    <br>
+                    I value good team-work and effective communication
+                    in my workplace.
+                </p>
+                <!-- botones de contacto -->
+                <div>
+                    <button type="button" id="btn-cv" class="btn btn-success btn-lg">CV</button>
+                    <button type="button" id="btn-linkedin" class="btn btn-secondary btn-lg">LinkedIn</button>
+                </div>
             </div>
-            
-        </div>
+            <img class="avatar01 col-5 float-end" src="/resources/img/avatar01.png" alt="Avatar PixelArt"/>
     </header>
 
-    <main>
+    <main class="container">
     <!--tarjetas-->
     <section>
         <div class="tarjeta">
