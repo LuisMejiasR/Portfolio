@@ -4,6 +4,18 @@ body{
     background: #cccccc;
 }
 
+.logo-nav-bar {
+    margin-left: 7vw;
+}
+
+.items-nav-bar{
+    margin-left: 45%;
+}
+
+.btn-nav-bar {
+    margin-right: 2vw;
+}
+
 .mejiasrojas{
     color: #38F54E;
     margin-top: 0.5vw;
@@ -21,27 +33,35 @@ p{
 .descripcion{
     background: #18171E;
     color: #cccccc;
-    padding: 3vw 3vw 0 3vw;
+    padding: 3vw 0 0 7vw;
 }
 
 .saludo{
-    margin: 10vw 0 3vw 0;
+    margin: 10vw 0 1vw 0;
+    font-size: 3vw;
+    font-weight: 400;
 }
 
 .skills{
     text-align: left;
-    margin-bottom: 3vw;
+    margin-bottom: 1vw;
     color: #38F54E;
+    font-size: 3.5vw;
+    font-weight: bolder;
 }
 
-.textoDescripcion{
+.textodescripcion{
     display: inline-block;
     text-align: left;
+    font-weight: bold;
+    font-size: 1.2vw;
+
 }
 
-.avatar01{
-    position: relative;
-    left: 3vw;
+
+
+.botones-contacto {
+    margin-top: 3vw;
 }
 
 #btn-cv{

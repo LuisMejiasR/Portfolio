@@ -17,28 +17,28 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <!-- link de logo principal -->
-                <a class="navbar-brand" style="margin-left: 3vw;" href="#">Luis <p class="mejiasrojas">Mejías Rojas</p></a>
+                <a class="navbar-brand logo-nav-bar" href="#">Luis <p class="mejiasrojas">Mejías Rojas</p></a>
                 <!-- navbar hamburguesa -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div style="margin-left: 60%;" class="collapse navbar-collapse" id="navbarNavDropdown">
+                <div class="collapse navbar-collapse items-nav-bar" id="navbarNavDropdown">
                     <!-- lista de items en la navbar -->
                     <ul class="navbar-nav">
                         <!-- 1 -->
-                        <li class="nav-item" style="margin-right: 2vw;">
+                        <li class="nav-item btn-nav-bar">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <!-- 2 -->
-                        <li class="nav-item" style="margin-right: 2vw;">
+                        <li class="nav-item btn-nav-bar">
                             <a class="nav-link" href="#">About me</a>
                         </li>
                         <!-- 3 -->
-                        <li class="nav-item" style="margin-right: 2vw;">
+                        <li class="nav-item btn-nav-bar">
                             <a class="nav-link" href="#">Experience</a>
                         </li>
                         <!-- 4 (este se expande) -->
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown btn-nav-bar">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Projects
                             </a>
@@ -48,6 +48,10 @@
                                 <li><a class="dropdown-item" href="#">Animación</a></li>
                             </ul>
                         </li>
+                        <!-- 5 -->
+                        <li class="nav-item btn-nav-bar">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -55,20 +59,22 @@
 
         <div class="descripcion clearfix">
             <!-- voy a dividir los elementos con "float" uno al lado del otro-->
-            <div class="float-start col-auto">
+            <div class="float-start">
                 <h3 class="saludo">Hi, my name is Luis Mejías Rojas</h3>
-            
+                <!-- quiero que esto vaya cambiando de palabras -->
                 <h1 class="skills">WEB DESIGNER/DEVELOPER</h1>
-                <!--descripción personal-->
+                <!-- descripción personal -->
                 <p class="textodescripcion">
-                    Full Stack Java Developer, with 2 years experience in the Marketing field. I am detail
+                    I'm a Full Stack Java Developer, with 2 years experience in the Marketing field.
+                    <br>
+                    I am detail
                     oriented, forward thinking and motivated. 
                     <br>
                     I value good team-work and effective communication
                     in my workplace.
                 </p>
                 <!-- botones de contacto -->
-                <div>
+                <div class="botones-contacto">
                     <button type="button" id="btn-cv" class="btn btn-success btn-lg">CV</button>
                     <button type="button" id="btn-linkedin" class="btn btn-secondary btn-lg">LinkedIn</button>
                 </div>
