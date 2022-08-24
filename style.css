@@ -1,0 +1,48 @@
+/*trata de mantener la misma estructura que en el archivo HTML*/
+
+body{
+    background: #cccccc;
+}
+
+h3{
+    text-align: left;
+}
+
+p{
+    display: inline-block;
+}
+
+.descripcion{
+    background: #18171E;
+    color: #cccccc;
+    padding: 0 0 0 3vw;
+}
+
+.skills{
+    text-align: left;
+}
+
+.textoDescripcion{
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+}
+
+.avatar01{
+    width: 30%;
+    float: right;
+
+}
+
+.botonescontacto {
+    position: relative;
+    bottom: 10vw;
+}
+
+.tarjeta {
+    text-align: center;
+    border: 2px solid #18171E;
+    width: 25%;
+    display: inline-block;
+    padding: 3vw auto 3vw auto;
+}
