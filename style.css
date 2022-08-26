@@ -8,8 +8,9 @@ body{
     margin-left: 6vw;
 }
 
-.items-nav-bar{
-    margin-left: 45%;
+/*para que los items queden a la izquierda*/
+#navbarNavDropdown {
+    flex-grow: 0 !important;
 }
 
 .btn-nav-bar {
