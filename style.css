@@ -37,7 +37,7 @@ p{
 .descripcion{
     background: #18171E;
     color: #D9D9D9;
-    padding: 3vw 0 0 7vw;
+    padding: 3vw 0 3vw 7vw;
 }
 
 .saludo{
@@ -65,6 +65,7 @@ p{
 .avatar01 {
     margin-top: 10vw;
     width: 37%;
+
 }
 
 .botones-contacto {
@@ -78,7 +79,7 @@ p{
     font-size: 2vw;
     margin-right: 1vw;
     padding: 0.5vw 5vw 0.5vw 5vw;
-    border-radius: 0;
+    border-radius: 0.1;
 }
 
 #btn-linkedin{
@@ -88,7 +89,7 @@ p{
     font-size: 2vw;
     margin-right: 1vw;
     padding: 0.5vw 3vw 0.5vw 3vw;
-    border-radius: 0;
+    border-radius: 0.1;
 }
 
 /*CUERPO DE HOME*/
@@ -97,14 +98,42 @@ p{
     background: #D9D9D9;
 }
 
+.fondodifuminado01{
+    background-image: linear-gradient(to bottom, #18171e, #161620, #141422, #111324, #0c1226);
+    padding-top: 5vw;
+}
+
+.tituloabtme{
+    text-align: center;
+    color: #38F54E;
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
 .tarjetas {
     padding-top: 3vw;
+    width: 100%;
+    padding: 5vw 5vw;
+    background: #0C1226;
+}
+
+.tarjeta h3 {
+    text-align: center;
+    color: #38F54E;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .tarjeta {
+    /*texto*/
+    color: #D9D9D9;
     text-align: center;
+    /*fondo*/
+    background-color: #21252D;
     border: 2px solid #18171E;
-    width: 25%;
-    display: inline-block;
-    padding: 3vw auto 3vw auto;
+    /*display*/
+    margin: 0 2.5%;
+    margin-bottom: 5%;
+    padding: 3vw 2vw;
+    border-radius: 0.5vw;
 }
