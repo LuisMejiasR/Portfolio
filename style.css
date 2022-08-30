@@ -59,7 +59,7 @@ p{
 .textodescripcion{
     display: inline-block;
     text-align: left;
-    font-weight: bold;
+    font-weight: 100;
     font-size: 1.2vw;
 
 }
@@ -101,7 +101,7 @@ p{
 }
 
 .fondodifuminado01{
-    background-image: linear-gradient(to bottom, #18171e, #161620, #141422, #111324, #0c1226);
+    background-image: linear-gradient(to bottom, #18171e, #0c1226);
     padding-top: 5vw;
 }
 
