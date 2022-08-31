@@ -154,6 +154,10 @@ p{
     border-color: #38F54E;
 }
 
+.texto-tarjeta{
+    text-align: justify;
+}
+
 .colegio{
     margin-top: 0.7vw;
     margin-bottom: 0.6vw;
@@ -164,21 +168,38 @@ p{
 }
 
 .footer{
-    padding: 2vw 7vw;
+    padding: 5vw 7vw 0 7vw;
     background-color: #21252D;
     width: 100%;
 }
 
+
 .lista-footer{
-    margin: 0 1.5vw;
     color: #D9D9D9;
-    background-color: #2aad30;
+    font-weight: 500;
+}
+
+.nombre-footer{
+    font-size: large;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.sub-titulo-footer{
+    color: #38F54E;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 2em;
+    font-size: large;
+}
+
+.div-copyright{
+    margin-top: 3vw;
+    color: #D9D9D9;
 }
 
 .copyright{
-    margin: 3vw 0;
+    margin: 0 0 2vw 0;
     font-size: smaller;
     width: 100%;
     text-align: center;
-    background-color: #D9D9D9;
+    color: #D9D9D9;
 }
