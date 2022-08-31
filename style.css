@@ -75,8 +75,8 @@ p{
 }
 
 #btn-cv{
-    background: #38F54E;
-    color: #18171E;
+    background: #2aad30;
+    color: #D9D9D9;
     font-weight: bold;
     font-size: 2vw;
     margin-right: 1vw;
@@ -85,14 +85,17 @@ p{
 }
 
 #btn-linkedin{
-    background: #D9D9D9;
-    color: #18171E;
+    background: none;
+    border-color: #2aad30;
+    color: #D9D9D9;
     font-weight: bold;
     font-size: 2vw;
     margin-right: 1vw;
     padding: 0.5vw 3vw 0.5vw 3vw;
     border-radius: 0.1;
 }
+
+
 
 /*CUERPO DE HOME*/
 
@@ -109,7 +112,7 @@ p{
     text-align: center;
     color: #38F54E;
     margin-bottom: 0;
-    font-size: 3em;
+    font-size: 3rem;
     font-family: "Chakra Petch", sans-serif;
 }
 
@@ -152,9 +155,30 @@ p{
 }
 
 .colegio{
-    margin-top: 1.3vw;
+    margin-top: 0.7vw;
+    margin-bottom: 0.6vw;
 }
 
 .resaltarinstitucion{
     font-weight: bolder;
+}
+
+.footer{
+    padding: 2vw 7vw;
+    background-color: #21252D;
+    width: 100%;
+}
+
+.lista-footer{
+    margin: 0 1.5vw;
+    color: #D9D9D9;
+    background-color: #2aad30;
+}
+
+.copyright{
+    margin: 3vw 0;
+    font-size: smaller;
+    width: 100%;
+    text-align: center;
+    background-color: #D9D9D9;
 }
