@@ -114,7 +114,7 @@ p{
     font-size: 2vw;
     margin-right: 1vw;
     padding: 0.5vw 5vw 0.5vw 5vw;
-    border-radius: 0.1;
+    border-radius: 0.1vw;
 }
 
 #btn-cv:hover{
@@ -132,7 +132,7 @@ p{
     font-size: 2vw;
     margin-right: 1vw;
     padding: 0.5vw 3vw 0.5vw 3vw;
-    border-radius: 0.1;
+    border-radius: 0.1vw;
 }
 
 #btn-linkedin:hover{
@@ -228,7 +228,7 @@ p{
 
 .photo-footer{
     display: block;
-    width: 20%;
+    width: 7vw;
     margin-top: 1em;
 }
 
@@ -255,4 +255,24 @@ p{
     width: 100%;
     text-align: center;
     color: #D9D9D9;
+}
+
+/*ESTILO HOJA CONTACTO*/
+
+.titulo-h1{
+    padding: 3vw 0;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.contacto-cuerpo{
+    margin: 0 0 2vw 0;
+}
+
+
+.sub-titulo-contacto{
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 2em;
+    font-weight: bold;
 }
