@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"><!--diccionario-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portafolio Luis Mejías</title>
+        <!-- reset de CSS -->
+        <link rel="stylesheet" href="resources/css/reset.css">
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="resources/css/style.css">
+        <!-- agregando fuentes de google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+    <div id="cabecera"></div>    
+        <!-- cabecera -->
+        <header class="cabecera">
+            <!-- barra de navegación -->
+            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <!-- link de logo principal -->
+                    <a class="navbar-brand logo-nav-bar" href="index.html">Luis <p class="mejiasrojas">Mejías Rojas</p></a>
+                    <!-- navbar hamburguesa -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- lista de items en la navbar -->
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <!-- botones a otra páginas -->
+                        <ul class="navbar-nav">
+                            <!-- 1 -->
+                            <li class="nav-item btn-nav-bar">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <!-- 2 -->
+                            <li class="nav-item btn-nav-bar">
+                                <a class="nav-link disabled" href="#">About me</a>
+                            </li>
+                            <!-- 3 -->
+                            <li class="nav-item btn-nav-bar">
+                                <a class="nav-link disabled" href="#">Experience</a>
+                            </li>
+                            <!-- 4 (este se expande) -->
+                            <li class="nav-item dropdown btn-nav-bar">
+                                <a class="nav-link disabled dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Projects
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Software Development</a></li>
+                                    <li><a class="dropdown-item" href="#">Design</a></li>
+                                    <li><a class="dropdown-item" href="#">Animation</a></li>
+                                </ul>
+                            </li>
+                            <!-- 5 -->
+                            <li id="btn-contacto" class="navbar-light nav-item btn-nav-bar">
+                                <a class="nav-link " href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="container ">
+            <h1 class="d-flex justify-content-center">CONTACT ME</h1>
+            <div class="row">
+                <div class="col">preguntas frecuentes</div>
+                <div class="col">
+                    <form>
+                        <legend>HAVE A QUESTION?</legend>
+                        <p>Fill up the form and I will get back to you as son as possible</p>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="nombre" placeholder="Name" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="Email1" placeholder="Email address"  aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="phone" placeholder="Phone"  aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Type your message</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="row">
+                <div class="col lista-footer">
+                    <p class="nombre-footer">
+                        Luis <samp class="sub-titulo-footer">Mejías Rojas</samp>
+                    </p>
+                    <img class="photo-footer" src="resources/img/fotoGeneration.png" alt="photo"/>
+                </div>
+                <div class="col lista-footer">
+                    <ul>
+                        <li class="sub-titulo-footer">
+                            Quicklinks
+                        </li>
+                        <li>
+                            LinkedIn
+                        </li>
+                        <li>
+                            Git-Hub
+                        </li>
+                        <li>
+                            Behance
+                        </li>
+                        <li>
+                            UpWork
+                        </li>
+                        <li>
+                            Fiverr
+                        </li>
+                    </ul>
+                </div>
+                <div class="col lista-footer">
+                    <ul>
+                        <li class="sub-titulo-footer">
+                            Contact
+                        </li>
+                        <li>
+                            E-mail me!
+                        </li>
+                        <li>
+                            Let's connect!
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <hr class="div-copyright"><br>
+                <p class="copyright"> Copyright &#169; Luis Mejías Rojas - 2022</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="./resources/docs/jquery-3.6.1.min.js"></script>
+        <script src="./resources/docs/script-contacto.js"></script>
+    </body>
+</html>

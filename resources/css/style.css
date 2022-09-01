@@ -3,6 +3,11 @@
 body{
     background: #D9D9D9;
 }
+/*para que no se vea la scrollbar*/
+body::-webkit-scrollbar {
+    display: none;
+}
+
 /*NAV BAR*/
 .logo-nav-bar {
     margin-left: 6vw;
@@ -51,7 +56,7 @@ p{
     padding: 0 2vw;
     border-radius: 0.1vw;
     font-family: "Chakra Petch", sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #btn-contacto:hover {
@@ -62,7 +67,7 @@ p{
 
 /*arregla el color del botón contacto*/
 .navbar-dark .navbar-nav .nav-link{
-    color: #0C1226;
+    color: #ffff;
 }
 
 .navbar-nav .nav-link  #btn-contacto {
@@ -219,6 +224,12 @@ p{
 .lista-footer{
     color: #D9D9D9;
     font-weight: 500;
+}
+
+.photo-footer{
+    display: block;
+    width: 20%;
+    margin-top: 1em;
 }
 
 .nombre-footer{
