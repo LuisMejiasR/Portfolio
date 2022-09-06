@@ -13,6 +13,7 @@ https://github.com/LuisMejiasR/Portfolio
 - HTML
 - CSS
 - Boostrap v5.1.x
+- Type.JS v2.0.12
 - Reset CSS de https://meyerweb.com/eric/tools/css/reset/
 - Google Fonts (Chakra Petch)
 
@@ -33,7 +34,14 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 ###### 01-09-2022
 - Agregando la imagen al footer, arreglando tarjetas y un poco de responsividad.
 
+###### 06-09-2022
+- Se retira el CSS para hacer el efecto de typing.
+- Se procede a usar una libreria "Typed.JS" junto con un index.js para hacer la animación del texto dinamico.
+
 ## Contacto
 
 ###### 01-09-2022
 - Se agregó el footer y un formulario con al menos 5 campos.
+
+###### 06-09-2022
+- Se empezó con el Vanilla JS para hacer la conección a FireBase.
