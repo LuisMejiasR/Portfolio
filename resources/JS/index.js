@@ -1,6 +1,6 @@
 var typed = new Typed(".texto-dinamico", {
-    strings: ["WEB DEVELOPER/DESIGNER", "MOTION DESIGNER","FREELANCER"],
-    typeSpeed: 100,
-    backSpeed: 100,
+    strings: ["WEB DEVELOPER/DESIGNER^500","FREELANCER", "MOTION DESIGNER"],
+    typeSpeed: 90,
+    backSpeed: 90,
     loop: true
 })
