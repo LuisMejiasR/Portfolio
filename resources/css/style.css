@@ -298,3 +298,7 @@ p{
 .mensaje-error{
     display: none;
 }
+
+.mensaje-error p {
+    margin-bottom: 0;
+}

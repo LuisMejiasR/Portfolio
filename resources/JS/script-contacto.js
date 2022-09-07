@@ -2,36 +2,95 @@
 window.addEventListener("DOMContentLoaded", (e) => {
     //dentro de la función es donde se procesa lo que voy a hacer, luego de ya cargadas y procesadas las etiquetas HTML
 
-    console.log("Hola")
+    console.log("Welcome")
 
     //recupero el elemento HTML botón y lo guardo en una variable
     let boton = document.getElementById("boton-contacto");
     //agrego otro evento en el cual escucho a que el botón sea presionado
     boton.addEventListener("click", (evento) => {
-        //y dentro de ese evento voy a escribir lo que quiero que pase
-        //voy a recuperar los elementos por ID
-        let nombre = document.getElementById("nombre").value;
-        let email = document.getElementById("correo").value;
-        let telefono = document.getElementById("telefono").value;
-        let mensaje = document.getElementById("message").value;
-        //para los que no son string sino selección, necesito una función que los recorra y vea cual fue seleccionado.
-        let motivoContacto = getMotivoContacto();
+        //vamos a envolver en un bloque try catch todo lo que podría producir un error
+        try{
+            //y dentro de ese evento voy a escribir lo que quiero que pase
+            //voy a recuperar los elementos por ID
+            let nombre = getNombreContacto();
+            let email = getCorreoContacto();
+            let telefono = getCorreoContacto();
+            let mensaje = getMensajeContacto();
+            //para los que no son string sino selección, necesito una función que los recorra y vea cual fue seleccionado.
+            let motivoContacto = getMotivoContacto();
 
-        //para guardar el mensaje tengo que crear una variable y armarla con las otra variables en formato JSON
-        let formularioContacto = {
-            nombre,
-            email,
-            telefono,
-            mensaje,
-            motivoContacto,
-            fecha_contacto: (new Date()).toISOString()
+            //para guardar el mensaje tengo que crear una variable y armarla con las otra variables en formato JSON
+            let formularioContacto = {
+                nombre,
+                email,
+                telefono,
+                mensaje,
+                motivoContacto,
+                fecha_contacto: (new Date()).toISOString()
+            };
+            console.dir(formularioContacto);
+            guardarFormularioLleno (formularioContacto);
+        }catch(e){
+            mostrarError(e.message);
         }
-        console.dir(formularioContacto);
-        guardarFormularioLleno (formularioContacto);
     });
 });
 
-//FUNCIÓN GLOBAL PARA OBTENER EL MOTIVO DE CONTACTO
+//función global para obtener EL NOMBRE
+function getNombreContacto() {
+    //variable para almacenar valor del input nombre
+    let inputNombreContacto = document.getElementById("nombre").value;
+    //validación rápida del largo del nombre
+    if (inputNombreContacto.length < 2){
+        //si es menor que 3 caracteres, tiro una excepción y devuelvo un error
+        throw new Error("The name is too short")
+    }
+    //sino regreso el valor del input
+    return inputNombreContacto;
+}
+
+//función global para obtener EL CORREO
+function getCorreoContacto() {
+    //variable para almacenar valor del input correo
+    let inputCorreoContacto = document.getElementById("correo").value;
+    //validación rápida del largo del correo
+    if (inputCorreoContacto.length < 5){
+        //si es menor que 6 caracteres, tiro una excepción y devuelvo un error
+        throw new Error("The email is too short")
+    }
+    //sino regreso el valor del input
+    return inputCorreoContacto;
+}
+
+//función global para obtener EL TELEFONO
+function getCorreoContacto() {
+    //variable para almacenar valor del input telefono
+    let inputTelefonoContacto = document.getElementById("telefono").value;
+    //validación rápida del largo del telefono
+    if (inputTelefonoContacto.length < 5){
+        //si es menor que 6 caracteres, tiro una excepción y devuelvo un error
+        throw new Error("The phone number is too short")
+    }
+    //sino regreso el valor del input
+    return inputTelefonoContacto;
+}
+
+//función global para obtener EL MENSAJE
+function getMensajeContacto() {
+    //variable para almacenar valor del mensaje
+    let inputMensajeContacto = document.getElementById("message").value;
+
+    //validación rápida del largo del mensaje
+    if (inputMensajeContacto.length < 10){
+        //si es menor que 11 caracteres, tiro una excepción y devuelvo un error
+        throw new Error("The message is too short")
+    }
+
+    //regreso el valor del input
+    return inputMensajeContacto;
+}
+
+//función global para obtener EL MOTIVO DE CONTACTO
 function getMotivoContacto() {
     //a través de esta variable tomo con selectores CSS todos los "input con nombre motivo-contacto que estén seleccionados"
     let inputMotivoContacto = document.querySelectorAll("input[name='motivo-contacto']:checked");
@@ -46,11 +105,15 @@ function getMotivoContacto() {
         arrMotivosContacto.push(motivo);
     }
 
+    if (inputMotivoContacto.length < 1){
+        throw new Error("You must choose at least one reason for contact");
+    }
+
     //regreso el arreglo completo
     return arrMotivosContacto;
 }
 
-//FUNCIÓN GLOBAL PARA GUARDAR MENSAJE FORMULARIO
+//función global para GUARDAR FORMULARIO LLENO
 function guardarFormularioLleno (formularioLleno){
     //constante para guardar url de firebase
     const baseUrl = "https://curso-frontend-1ae31-default-rtdb.firebaseio.com/"
@@ -61,4 +124,20 @@ function guardarFormularioLleno (formularioLleno){
         method: "POST",
         body: JSON.stringify(formularioLleno)
     });
+}
+
+//función global para MOSTRAR ERROR
+function mostrarError(mensajeDeError){
+    //tenemos que hacer que el elemento se muestre en el HTML cambiando el display
+    document.getElementById("form-mensaje-error").style.display = "block";
+    //seleccionamos la p a través de selectores CSS
+    const p = document.querySelector("#form-mensaje-error p");
+    //creamos un elemento span dentro del documento
+    const span = document.createElement("span");
+    //y luego creamos un string con el mensaje de error
+    const spanText = document.createTextNode(mensajeDeError);
+    //luego dentro del span introducimos el string
+    span.appendChild(spanText);
+    //y dentro del p introducimos el span
+    p.appendChild(span);
 }

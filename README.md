@@ -49,3 +49,5 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 ###### 07-09-2022
 - Se modificó el mensaje de motivos de contacto.
 - Se creó la conección a firebase a través de Vanilla JS.
+- Se modificaron los espacios entre el formulario para arreglar problema con carrusel.
+- Se agregan validaciones individuales a cada item del input.
