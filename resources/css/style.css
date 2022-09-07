@@ -280,10 +280,10 @@ p{
     font-weight: bold;
 }
 
-#mensaje-exito{
+.mensaje-exito{
     display: none;
 }
 
-#mensaje-error{
+.mensaje-error{
     display: none;
 }
