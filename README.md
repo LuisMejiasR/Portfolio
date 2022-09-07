@@ -45,3 +45,7 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 
 ###### 06-09-2022
 - Se empezó con el Vanilla JS para hacer la conección a FireBase.
+
+###### 07-09-2022
+- Se modificó el mensaje de motivos de contacto.
+- Se creó la conección a firebase a través de Vanilla JS.

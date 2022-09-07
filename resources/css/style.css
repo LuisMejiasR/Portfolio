@@ -270,9 +270,20 @@ p{
     margin: 0 0 2vw 0;
 }
 
+.formulario-contacto{
+    height: 100%;
+}
 
 .sub-titulo-contacto{
     font-family: "Chakra Petch", sans-serif;
     font-size: 2em;
     font-weight: bold;
+}
+
+#mensaje-exito{
+    display: none;
+}
+
+#mensaje-error{
+    display: none;
 }
