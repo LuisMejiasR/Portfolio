@@ -280,6 +280,17 @@ p{
     font-weight: bold;
 }
 
+.texto-informativo-contacto{
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+}
+
+.texto-informativo-primer-texto{
+    margin-bottom: 3rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: bold;
+}
+
 .mensaje-exito{
     display: none;
 }
