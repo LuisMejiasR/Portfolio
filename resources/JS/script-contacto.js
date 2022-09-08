@@ -4,6 +4,8 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
     console.log("Welcome")
 
+    //nos traemos el formulario para poder hacerle reset
+    let formulario = document.querySelector(".formulario-contacto");
     //recupero el elemento HTML botón y lo guardo en una variable
     let boton = document.getElementById("boton-contacto");
     //agrego otro evento en el cual escucho a que el botón sea presionado
@@ -30,6 +32,8 @@ window.addEventListener("DOMContentLoaded", (e) => {
             };
             console.dir(formularioContacto);
             guardarFormularioLleno (formularioContacto);
+            //una vez teniendo el formulario en variable, le hacemos el reset
+            formulario.reset();
         }catch(e){
             mostrarError(e.message);
         }
@@ -81,8 +85,8 @@ function getMensajeContacto() {
     let inputMensajeContacto = document.getElementById("message").value;
 
     //validación rápida del largo del mensaje
-    if (inputMensajeContacto.length < 10){
-        //si es menor que 11 caracteres, tiro una excepción y devuelvo un error
+    if (inputMensajeContacto.length < 3){
+        //si es menor que 4 caracteres, tiro una excepción y devuelvo un error
         throw new Error("The message is too short")
     }
 
