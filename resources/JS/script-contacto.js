@@ -32,6 +32,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
             };
             console.dir(formularioContacto);
             guardarFormularioLleno (formularioContacto);
+            mostrarExito("Your message was successfuly sent");
             //una vez teniendo el formulario en variable, le hacemos el reset
             formulario.reset();
         }catch(e){
@@ -140,6 +141,22 @@ function mostrarError(mensajeDeError){
     const span = document.createElement("span");
     //y luego creamos un string con el mensaje de error
     const spanText = document.createTextNode(mensajeDeError);
+    //luego dentro del span introducimos el string
+    span.appendChild(spanText);
+    //y dentro del p introducimos el span
+    p.appendChild(span);
+}
+
+//función global para MOSTRAR EL EXITO
+function mostrarExito(mensajeExito){
+    //seleccionamos el elemento del cuadro verde y lo mostramos
+    document.getElementById("form-mensaje-exito").style.display = "block";
+    //selecionamos la p a través de selectores CSS
+    const p = document.querySelector("#form-mensaje-exito p");
+    //creamos un nuevo span dentro del documento
+    const span = document.createElement("span");
+    //creamos un string dentro del documento con el mensaje
+    const spanText = document.createTextNode(mensajeExito);
     //luego dentro del span introducimos el string
     span.appendChild(spanText);
     //y dentro del p introducimos el span
