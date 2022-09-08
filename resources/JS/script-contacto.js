@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
             //voy a recuperar los elementos por ID
             let nombre = getNombreContacto();
             let email = getCorreoContacto();
-            let telefono = getCorreoContacto();
+            let telefono = getTelefonoContacto();
             let mensaje = getMensajeContacto();
             //para los que no son string sino selección, necesito una función que los recorra y vea cual fue seleccionado.
             let motivoContacto = getMotivoContacto();
@@ -63,7 +63,7 @@ function getCorreoContacto() {
 }
 
 //función global para obtener EL TELEFONO
-function getCorreoContacto() {
+function getTelefonoContacto() {
     //variable para almacenar valor del input telefono
     let inputTelefonoContacto = document.getElementById("telefono").value;
     //validación rápida del largo del telefono
