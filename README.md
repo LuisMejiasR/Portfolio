@@ -61,4 +61,4 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 - Se agregó responsividad al body.
 
 ###### 08-09-2022
-- Actualizando footer.
+- Actualizando footer con display de imagen correcta.

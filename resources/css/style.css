@@ -306,6 +306,19 @@ p{
 
 @media screen and (max-width:480px){
     
+    .navbar-nav .nav-link {
+        padding: 1vw 0 1vw 11vw;
+    }
+
+    #btn-contacto{
+        display: inline;
+        background-color: #2aad30;
+        padding: 0;
+        border-radius: 0.1vw;
+        font-family: "Chakra Petch", sans-serif;
+        font-weight: bold;
+    }
+
     .saludo{
         margin: 10vw 0 1vw 0;
         font-size: 1rem;
@@ -360,6 +373,7 @@ p{
         padding: 3vw 10vw;
         width: fit-content;
     }
+
     .nombre-footer{
         margin: 1em 0 0 3vw;
         display: block;
@@ -373,6 +387,14 @@ p{
 
     div ul li{
         margin-left: -5vw;
+    }
+
+    .titulo-h1{
+        margin-top: 4vh;
+    }
+
+    .contacto-cuerpo{
+        margin: 4vh 4vw 4vh 4vw;
     }
 
 }
