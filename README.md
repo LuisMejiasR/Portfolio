@@ -38,6 +38,9 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 - Se retira el CSS para hacer el efecto de typing.
 - Se procede a usar una libreria "Typed.JS" junto con un index.js para hacer la animación del texto dinamico.
 
+###### 07-09-2022
+- Se agrega el gif en lugar de la imagen principal para que se mueva.
+
 ## Contacto
 
 ###### 01-09-2022
