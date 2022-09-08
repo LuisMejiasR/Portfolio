@@ -51,3 +51,4 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 - Se creó la conección a firebase a través de Vanilla JS.
 - Se modificaron los espacios entre el formulario para arreglar problema con carrusel.
 - Se agregan validaciones individuales a cada item del input.
+- Se agregó responsividad al body.
