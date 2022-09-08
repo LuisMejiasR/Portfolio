@@ -41,6 +41,10 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 ###### 07-09-2022
 - Se agrega el gif en lugar de la imagen principal para que se mueva.
 
+###### 08-09-2022
+- Añadiendo responsividad al home, quito la imagen principal y cuadro tamaños de textos.
+- Además cambiando la responsividad del footer.
+
 ## Contacto
 
 ###### 01-09-2022
@@ -55,3 +59,6 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 - Se modificaron los espacios entre el formulario para arreglar problema con carrusel.
 - Se agregan validaciones individuales a cada item del input.
 - Se agregó responsividad al body.
+
+###### 08-09-2022
+- Actualizando footer.

@@ -100,7 +100,6 @@ p{
 .avatar01 {
     margin-top: 10vw;
     width: 37%;
-
 }
 
 .botones-contacto {
@@ -301,4 +300,79 @@ p{
 
 .mensaje-error p {
     margin-bottom: 0;
+}
+
+/*Haciendo la página responsiva*/
+
+@media screen and (max-width:480px){
+    
+    .saludo{
+        margin: 10vw 0 1vw 0;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    
+    .skills{
+        text-align: left;
+        margin-top: 3vh;
+        margin-bottom: 1vw;
+        color: #38F54E;
+        font-size: 1.8em;
+        font-weight: bolder;
+        font-family: "Chakra Petch", sans-serif;
+    }
+
+    .textodescripcion{
+        display: none;
+    }
+    
+    .avatar01 {
+        display: none;
+    }
+
+    .botones-contacto{
+        width: fit-content;
+    }
+
+    #btn-cv{
+        display: block;
+        font-size: 1rem;
+        margin-bottom: 2vh;
+        padding: 1vh;
+        border-radius: 0.1vw;
+    }
+    
+    #btn-linkedin{
+        display: block;
+        box-shadow:none;
+        border-color: #38F54E;
+        font-size: 1rem;
+        padding: 1vh 5vh;
+        border-radius: 0.1vw;
+        margin-bottom: 1rem;
+    }
+
+    .tituloabtme {
+        font-size: 2rem;
+    }
+
+    .tarjeta {
+        padding: 3vw 10vw;
+        width: fit-content;
+    }
+    .nombre-footer{
+        margin: 1em 0 0 3vw;
+        display: block;
+    }
+
+    .photo-footer{
+        display: inline-block;
+        width: 15vh;
+        margin: 1em 0 1em 3vw;
+    }
+
+    div ul li{
+        margin-left: -5vw;
+    }
+
 }
