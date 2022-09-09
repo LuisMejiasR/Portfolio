@@ -473,7 +473,7 @@ h1.titulo-h1-1 {
 
     div ul li{
         margin-left: -5vw;
-        list-style-type: circle;
+        list-style-type: none;
     }
 
     .titulo-h1{
