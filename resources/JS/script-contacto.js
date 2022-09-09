@@ -32,7 +32,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
             };
             console.dir(formularioContacto);
             guardarFormularioLleno (formularioContacto);
-            mostrarExito("Your message was successfuly sent");
+            //mostrarExito("Your message was successfuly sent");
             //una vez teniendo el formulario en variable, le hacemos el reset
             formulario.reset();
         }catch(e){
@@ -119,16 +119,18 @@ function getMotivoContacto() {
 }
 
 //función global para GUARDAR FORMULARIO LLENO
-function guardarFormularioLleno (formularioLleno){
+async function guardarFormularioLleno (formularioLleno){
     //constante para guardar url de firebase
     const baseUrl = "https://curso-frontend-1ae31-default-rtdb.firebaseio.com/"
     //constante para agregarle a la URL la dirección exacta donde se guardarán
     const url = baseUrl + "/formularioLleno.json";
-    //metodo fetch
-    fetch (url, {
+    //metodo async await
+    const respuesta = await fetch (url, {
         method: "POST",
         body: JSON.stringify(formularioLleno)
     });
+    const data = await respuesta.json();
+    mostrarExito("Your message was successfuly sent ")
 }
 
 //función global para MOSTRAR ERROR

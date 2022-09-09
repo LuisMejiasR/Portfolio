@@ -43,7 +43,8 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 
 ###### 08-09-2022
 - Añadiendo responsividad al home, quito la imagen principal y cuadro tamaños de textos.
-- Además cambiando la responsividad del footer.
+- Cambiando la responsividad del footer.
+- Añadiendo Links a footer.
 
 ## Contacto
 
@@ -62,3 +63,17 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 
 ###### 08-09-2022
 - Actualizando footer con display de imagen correcta.
+- Se agregó el mensaje de exito al envíar el formulario.
+
+## Hoja de ruta
+
+###### 08-09-2022
+- Se agregó está pagina HTML.
+- Se cambió los textos e iconos para reflejar el front, back y nuevas cosas que quiero aprender.
+
+## Comisiones
+
+###### 08-09-2022
+- Se agregó está pagina HTML.
+- Se agregan 3 tipos de comisiones, arregladas por flex unicamente.
+- Se añade un media query para pantallas grandes para arreglar texto.
