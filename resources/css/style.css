@@ -352,6 +352,11 @@ h1.titulo-h1-1 {
     margin-bottom: 3vw;
 }
 
+.comision:hover{
+    border-color: #38F54E;
+    box-shadow: 0 0px 32px 0 #2aad30;
+}
+
 .caja1{
     display: flex;
     justify-content: space-around;
@@ -468,6 +473,7 @@ h1.titulo-h1-1 {
 
     div ul li{
         margin-left: -5vw;
+        list-style-type: circle;
     }
 
     .titulo-h1{
