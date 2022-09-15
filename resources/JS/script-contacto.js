@@ -139,6 +139,8 @@ function mostrarError(mensajeDeError){
     document.getElementById("form-mensaje-error").style.display = "block";
     //seleccionamos la p a través de selectores CSS
     const p = document.querySelector("#form-mensaje-error p");
+    //para limpiar el alert
+    p.innerHTML = "";
     //creamos un elemento span dentro del documento
     const span = document.createElement("span");
     //y luego creamos un string con el mensaje de error
@@ -155,6 +157,8 @@ function mostrarExito(mensajeExito){
     document.getElementById("form-mensaje-exito").style.display = "block";
     //selecionamos la p a través de selectores CSS
     const p = document.querySelector("#form-mensaje-exito p");
+    //para limpiar el alert
+    p.innerHTML = "";
     //creamos un nuevo span dentro del documento
     const span = document.createElement("span");
     //creamos un string dentro del documento con el mensaje

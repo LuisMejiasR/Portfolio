@@ -65,6 +65,9 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 - Actualizando footer con display de imagen correcta.
 - Se agregó el mensaje de exito al envíar el formulario.
 
+###### 14-09-2022
+- Se agregó el insertHTML con un string vacio para resetear el alert.
+
 ## Hoja de ruta
 
 ###### 08-09-2022
