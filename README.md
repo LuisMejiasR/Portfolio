@@ -90,3 +90,5 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 
 ## Projects
 - Se agregó está pagina HTML.
+- Se agregó etiqueta video.
+- Se modificó selectores de texto para agregar responsividad.
