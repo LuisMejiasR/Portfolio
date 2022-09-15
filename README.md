@@ -46,6 +46,9 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 - Cambiando la responsividad del footer.
 - Añadiendo Links a footer.
 
+###### 15-09-2022
+- Arreglé el dropdown menu para que se viera bien en mobile, además
+
 ## Contacto
 
 ###### 01-09-2022
@@ -84,3 +87,6 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 ###### 15-09-2022
 - Se agregó el formulario al HTML con nuevos input radio y file.
 - Falta trabajar la vista escritorio.
+
+## Projects
+- Se agregó está pagina HTML.
