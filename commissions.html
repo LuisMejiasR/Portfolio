@@ -105,6 +105,52 @@
                     <img src="resources/img/rawayanaland.png" alt="poster_rawayana"/>
                 </div>
             </div>
+            <div class="comisiones">
+                <p class="sub-titulo-contacto d-flex justify-content-center text-center">WANT TO PLACE AN ORDER? <br/>Leave me a message</p><br/>
+                    <p class="texto-informativo-primer-texto">Fill up this form and I will get back to you as soon as possible!</p>
+                <div id="form-mensaje-exito" class="alert alert-success mensaje-exito" role="alert">
+                    <p></p>
+                </div>
+                <div id="form-mensaje-error" class="alert alert-danger mensaje-error" role="alert">
+                    <p></p>
+                </div>
+                <form class="formulario-contacto">
+                
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="nombre" placeholder="Name" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="correo" placeholder="Email address" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="telefono" placeholder="Phone" required>
+                    </div>
+                    <p class="texto-informativo-contacto">Let me know the kind of commission</p>
+                    <div class="mb-3 form-check">
+                        <input type="radio" value="Character sprite" class="form-check-input" id="character-sprite" name="tipo-comision">
+                        <label class="form-check-label" for="character-sprite">Character sprite</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="radio" value="Game assets" class="form-check-input" id="game-assets" name="tipo-comision">
+                        <label class="form-check-label" for="game-assets">Game assets</label>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="radio" value="Poster design" class="form-check-input" id="poster-design" name="tipo-comision">
+                        <label class="form-check-label" for="poster-design">Poster design</label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="reference" class="form-label texto-informativo-contacto">I will need some references, pick a couple images that you like and send them to me</label>
+                        <input type="file" accept="image/*" class="form-control" id="reference" multiple></input>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label texto-informativo-contacto">Type the specifications for the commission</label>
+                        <textarea class="form-control" id="message" rows="3"></textarea>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-success mt-4" id="boton-contacto" type="button">Send message</button>
+                    </div>
+                </form>
+            </div>
         </main>
         <footer class="footer">
             <div class="row">

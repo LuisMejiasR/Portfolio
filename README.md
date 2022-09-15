@@ -80,3 +80,7 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 - Se agregó está pagina HTML.
 - Se agregan 3 tipos de comisiones, arregladas por flex unicamente.
 - Se añade un media query para pantallas grandes para arreglar texto.
+
+###### 15-09-2022
+- Se agregó el formulario al HTML con nuevos input radio y file.
+- Falta trabajar la vista escritorio.
