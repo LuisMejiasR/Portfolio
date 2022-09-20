@@ -88,6 +88,10 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 - Se agregó el formulario al HTML con nuevos input radio y file.
 - Falta trabajar la vista escritorio.
 
+###### 20-09-2022
+- Se creó el JS para persistir los datos en firebase.
+- Se modificó el JS y se dejó vinculado con el HTML correspondiente.
+
 ## Projects
 - Se agregó está pagina HTML.
 - Se agregó etiqueta video.
