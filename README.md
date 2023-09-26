@@ -96,3 +96,5 @@ Empezando a documentar el proyecto, ya tengo lo que quiero que sea el home page.
 - Se agregó está pagina HTML.
 - Se agregó etiqueta video.
 - Se modificó selectores de texto para agregar responsividad.
+
+# 25-09-2023 - Se empieza el diseño de nueva versión
