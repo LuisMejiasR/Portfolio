@@ -1,8 +1,9 @@
 /*trata de mantener la misma estructura que en el archivo HTML*/
 
-body{
+body {
     background: #D9D9D9;
 }
+
 /*para que no se vea la scrollbar*/
 body::-webkit-scrollbar {
     display: none;
@@ -23,7 +24,7 @@ body::-webkit-scrollbar {
     margin-right: 2vw;
 }
 
-.mejiasrojas{
+.mejiasrojas {
     color: #38F54E;
     margin-top: 0.5vw;
     margin-bottom: 0.5vw;
@@ -31,16 +32,16 @@ body::-webkit-scrollbar {
 
 /*HEADER*/
 
-h3{
+h3 {
     text-align: left;
 }
 
-p{
+p {
     display: inline-block;
 }
 
 /*contenedor del texto*/
-.descripcion{
+.descripcion {
     background: #18171E;
     color: #D9D9D9;
     padding: 3vw 0 3vw 7vw;
@@ -51,7 +52,7 @@ p{
     padding: 1vw 0 1vw 6vw;
 }
 
-#btn-contacto{
+#btn-contacto {
     background-color: #2aad30;
     padding: 0 2vw;
     border-radius: 0.1vw;
@@ -66,21 +67,21 @@ p{
 }
 
 /*arregla el color del botón contacto*/
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
     color: #ffff;
 }
 
-.navbar-nav .nav-link  #btn-contacto {
+.navbar-nav .nav-link #btn-contacto {
     font-weight: bold;
 }
 
-.saludo{
+.saludo {
     margin: 10vw 0 1vw 0;
     font-size: 3vw;
     font-weight: 400;
 }
 
-.skills{
+.skills {
     text-align: left;
     margin-bottom: 1vw;
     color: #38F54E;
@@ -89,7 +90,7 @@ p{
     font-family: "Chakra Petch", sans-serif;
 }
 
-.textodescripcion{
+.textodescripcion {
     display: inline-block;
     text-align: left;
     font-weight: 100;
@@ -106,7 +107,7 @@ p{
     margin-top: 7vw;
 }
 
-#btn-cv{
+#btn-cv {
     background: #2aad30;
     color: #D9D9D9;
     font-weight: bold;
@@ -116,16 +117,16 @@ p{
     border-radius: 0.1vw;
 }
 
-#btn-cv:hover{
+#btn-cv:hover {
     background: none;
     color: #D9D9D9;
     border-color: #D9D9D9;
     transition: 400ms;
 }
 
-#btn-linkedin{
+#btn-linkedin {
     background: none;
-    box-shadow:inset 0px 0px 0px 0.12rem #38F54E;
+    box-shadow: inset 0px 0px 0px 0.12rem #38F54E;
     color: #D9D9D9;
     font-weight: bold;
     font-size: 2vw;
@@ -134,11 +135,11 @@ p{
     border-radius: 0.1vw;
 }
 
-#btn-linkedin:hover{
+#btn-linkedin:hover {
     border-color: #D9D9D9;
     color: #D9D9D9;
     transition: 400ms;
-    box-shadow:inset 0 0 0 0 #2aad30;
+    box-shadow: inset 0 0 0 0 #2aad30;
 }
 
 /*CUERPO DE HOME*/
@@ -147,12 +148,12 @@ p{
     background: #D9D9D9;
 }
 
-.fondodifuminado01{
+.fondodifuminado01 {
     background-image: linear-gradient(to bottom, #18171e, #0c1226);
     padding-top: 5vw;
 }
 
-.tituloabtme{
+.tituloabtme {
     text-align: center;
     color: #38F54E;
     margin-bottom: 0;
@@ -160,7 +161,7 @@ p{
     font-family: "Chakra Petch", sans-serif;
 }
 
-.titulo-roadmap{
+.titulo-roadmap {
     text-align: center;
     color: #D9D9D9;
     margin-bottom: 0;
@@ -184,11 +185,6 @@ p{
     font-family: "Chakra Petch", sans-serif;
 }
 
-.tarjeta:hover h3{
-    font-size: 2em;
-
-}
-
 .tarjeta {
     /*texto*/
     color: #D9D9D9;
@@ -203,25 +199,25 @@ p{
     border-radius: 0.5vw;
 }
 
-.tarjeta:hover{
+.tarjeta:hover {
     border-color: #38F54E;
     box-shadow: 0 0px 32px 0 #2aad30;
 }
 
-.texto-tarjeta{
+.texto-tarjeta {
     text-align: justify;
 }
 
-.colegio{
+.colegio {
     margin-top: 0.7vw;
     margin-bottom: 0.6vw;
 }
 
-.resaltarinstitucion{
+.resaltarinstitucion {
     font-weight: bolder;
 }
 
-.footer{
+.footer {
     padding: 5vw 7vw 0 7vw;
     background-color: #21252D;
     width: 100%;
@@ -229,40 +225,40 @@ p{
     font-weight: 500;
 }
 
-.photo-footer{
+.photo-footer {
     display: block;
     width: 7vw;
     margin-top: 1em;
 }
 
-.nombre-footer{
+.nombre-footer {
     font-size: large;
     font-family: "Chakra Petch", sans-serif;
 }
 
-.sub-titulo-footer{
+.sub-titulo-footer {
     color: #38F54E;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 2em;
     font-size: large;
 }
 
-.links-footer{
+.links-footer {
     color: #D9D9D9;
     font-weight: 500;
     text-decoration: none;
 }
 
-.links-footer:hover{
+.links-footer:hover {
     color: #2aad30;
 }
 
-.div-copyright{
+.div-copyright {
     margin-top: 3vw;
     color: #D9D9D9;
 }
 
-.copyright{
+.copyright {
     margin: 0 0 2vw 0;
     font-size: smaller;
     width: 100%;
@@ -272,7 +268,7 @@ p{
 
 /*ESTILO HOJA CONTACTO*/
 
-.titulo-h1{
+.titulo-h1 {
     padding: 3vw 0;
     font-size: 3rem;
     font-weight: bolder;
@@ -280,32 +276,32 @@ p{
 }
 
 
-.contacto-cuerpo{
+.contacto-cuerpo {
     margin: 0 0 2vw 0;
 }
 
-.formulario-contacto{
+.formulario-contacto {
     height: 100%;
 }
 
-.sub-titulo-contacto{
+.sub-titulo-contacto {
     font-family: "Chakra Petch", sans-serif;
     font-size: 2em;
     font-weight: bold;
 }
 
-.texto-informativo-contacto{
+.texto-informativo-contacto {
     font-family: "Chakra Petch", sans-serif;
     font-weight: bold;
 }
 
-.texto-informativo-primer-texto{
+.texto-informativo-primer-texto {
     margin-bottom: 3rem;
     font-family: "Chakra Petch", sans-serif;
     font-weight: bold;
 }
 
-.mensaje-exito{
+.mensaje-exito {
     display: none;
 }
 
@@ -313,7 +309,7 @@ p{
     margin-bottom: 0;
 }
 
-.mensaje-error{
+.mensaje-error {
     display: none;
 }
 
@@ -336,7 +332,7 @@ h1.titulo-h1-1 {
     font-family: "Chakra Petch", sans-serif;
 }
 
-.comisiones{
+.comisiones {
     display: flex;
     flex-direction: column;
     padding: 3vw 7vw;
@@ -346,18 +342,18 @@ h1.titulo-h1-1 {
     height: 20vw;
 }
 
-.comision{
+.comision {
     border: 1px solid #0c1226;
     padding: 2vw;
     margin-bottom: 3vw;
 }
 
-.comision:hover{
+.comision:hover {
     border-color: #38F54E;
     box-shadow: 0 0px 32px 0 #2aad30;
 }
 
-.caja1{
+.caja1 {
     display: flex;
     justify-content: space-around;
     background-color: #21252D;
@@ -365,14 +361,7 @@ h1.titulo-h1-1 {
     border-radius: 1vw;
 }
 
-.caja2{
-    display: flex;
-    justify-content: space-around;
-    background-color: #21252D;
-    color: #D9D9D9;
-    border-radius: 1vw;
-}
-.caja3{
+.caja2 {
     display: flex;
     justify-content: space-around;
     background-color: #21252D;
@@ -380,7 +369,15 @@ h1.titulo-h1-1 {
     border-radius: 1vw;
 }
 
-.sub-titulo-comisiones{
+.caja3 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #21252D;
+    color: #D9D9D9;
+    border-radius: 1vw;
+}
+
+.sub-titulo-comisiones {
     font-family: "Chakra Petch", sans-serif;
     font-size: 2em;
     font-weight: bold;
@@ -390,24 +387,24 @@ h1.titulo-h1-1 {
 /* PÁGINA PROYECTOS */
 
 /*para el menú del navbar*/
-.dropdown-menu{
+.dropdown-menu {
     opacity: 0.7;
 }
 
-.video{
+.video {
     width: 50%;
 }
 
 /* RESPONSIVIDAD DE LA PÁGINA */
 
 /**/
-@media screen and (max-width:480px){
-    
+@media screen and (max-width:480px) {
+
     .navbar-nav .nav-link {
         padding: 1vw 0 1vw 11vw;
     }
 
-    #btn-contacto{
+    #btn-contacto {
         display: inline;
         background-color: #2aad30;
         padding: 0;
@@ -416,13 +413,13 @@ h1.titulo-h1-1 {
         font-weight: bold;
     }
 
-    .saludo{
+    .saludo {
         margin: 10vw 0 1vw 0;
         font-size: 1rem;
         font-weight: 400;
     }
-    
-    .skills{
+
+    .skills {
         text-align: left;
         margin-top: 3vh;
         margin-bottom: 1vw;
@@ -432,29 +429,29 @@ h1.titulo-h1-1 {
         font-family: "Chakra Petch", sans-serif;
     }
 
-    .textodescripcion{
+    .textodescripcion {
         display: none;
     }
-    
+
     .avatar01 {
         display: none;
     }
 
-    .botones-contacto{
+    .botones-contacto {
         width: fit-content;
     }
 
-    #btn-cv{
+    #btn-cv {
         display: block;
         font-size: 1rem;
         margin-bottom: 2vh;
         padding: 1vh;
         border-radius: 0.1vw;
     }
-    
-    #btn-linkedin{
+
+    #btn-linkedin {
         display: block;
-        box-shadow:none;
+        box-shadow: none;
         border-color: #38F54E;
         font-size: 1rem;
         padding: 1vh 5vh;
@@ -471,31 +468,31 @@ h1.titulo-h1-1 {
         width: fit-content;
     }
 
-    .nombre-footer{
+    .nombre-footer {
         margin: 1em 0 0 3vw;
         display: block;
     }
 
-    .photo-footer{
+    .photo-footer {
         display: inline-block;
         width: 15vh;
         margin: 1em 0 1em 3vw;
     }
 
-    div ul li{
+    div ul li {
         margin-left: -5vw;
         list-style-type: none;
     }
 
-    .titulo-h1{
+    .titulo-h1 {
         margin-top: 4vh;
     }
 
-    .contacto-cuerpo{
+    .contacto-cuerpo {
         margin: 4vh 4vw 4vh 4vw;
     }
 
-    .comisiones{
+    .comisiones {
         padding-top: 3vh;
     }
 
@@ -503,20 +500,22 @@ h1.titulo-h1-1 {
         display: none;
     }
 
-    .caja1{
-        justify-content: left;
-        padding: 2vh;
-    }
-    .caja2{
-        justify-content: left;
-        padding: 2vh;
-    }
-    .caja3{
+    .caja1 {
         justify-content: left;
         padding: 2vh;
     }
 
-    .dropdown-menu{
+    .caja2 {
+        justify-content: left;
+        padding: 2vh;
+    }
+
+    .caja3 {
+        justify-content: left;
+        padding: 2vh;
+    }
+
+    .dropdown-menu {
         margin-left: 3rem;
         padding-left: 1rem;
         margin-bottom: 0.5rem;
@@ -525,6 +524,7 @@ h1.titulo-h1-1 {
     .texto-grande p {
         margin-top: 1rem;
     }
+
     .video {
         display: none;
     }
@@ -534,13 +534,13 @@ h1.titulo-h1-1 {
 /* PARA LA TORRE */
 @media only screen and (min-width: 980px) {
 
-    .texto-grande{
+    .texto-grande {
         font-size: xx-large;
         text-align: center;
         padding: 2rem;
     }
 
-    .texto-grande li{
+    .texto-grande li {
         text-align: left;
     }
 
