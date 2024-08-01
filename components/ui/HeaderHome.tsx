@@ -7,16 +7,18 @@ export const HeaderHome = () => {
     return (
         <section className='text-white w-full self-start'>
             <div className='grid glird-cols-1 lg:grid-cols-12'>
-                <div className='lg:col-span-7 place-self-center'>
-                    <h1 className=' text-light-1 mb-4 text-4xl lg:text-6xl font-extrabold'>
-                        Hola! Soy {' '} <br />
+                <div className='lg:col-span-7 place-self-center text-center sm:text-left'>
+                    <h1 className=' text-light-1 mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-500'>
+                            Hola! Soy Luis Mejías {' '} <br />
+                        </span>
                         <TypeAnimation
                             sequence={[
-                                'Luis Mejías',
+                                'Frontend Developer',
                                 1000,
-                                'Desarrollador',
+                                'Backend Developer',
                                 1000,
-                                'Diseñador',
+                                'Animador 2D/3D',
                                 1000,
                             ]}
                             wrapper='span'
@@ -24,7 +26,7 @@ export const HeaderHome = () => {
                             repeat={Infinity}
                         />
                     </h1>
-                    <p className='body-medium text-light-2 text-lg lg:text-xl mb-6'>
+                    <p className='text-light-2 text-base sm:text-lg lg:text-xl mb-6 sm:mr-6'>
                         Soy un Fullstack con 2 años de experiencia.
                         Me oriento mucho a los detalles y soy bueno trabajando en equipo.
                         Aprecio mucho una buena comunicación con mis compañeros y un ambiente de desarrollo Agil
