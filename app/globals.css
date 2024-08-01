@@ -1,0 +1,20 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer components {
+
+  /* main */
+  .main-container {
+    @apply flex min-h-screen flex-col bg-dark-1 pb-10 pt-12 max-md:pb-32 sm:px-10;
+  }
+
+  /* Head Text */
+  .head-text {
+    @apply text-heading2-bold text-light-1;
+  }
+
+  .contact_btn {
+    @apply rounded-lg text-[18px] lg:text-[24px] py-3 px-6 !important;
+  }
+}
