@@ -14,11 +14,11 @@ export const HeaderHome = () => {
                         </span>
                         <TypeAnimation
                             sequence={[
-                                'Frontend Developer',
+                                'Frontend Dev',
                                 1000,
-                                'Backend Developer',
+                                'Backend Dev',
                                 1000,
-                                'Animador 2D/3D',
+                                'Animador 2D',
                                 1000,
                             ]}
                             wrapper='span'
